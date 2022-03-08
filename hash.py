@@ -1,3 +1,25 @@
+import time 
+from colorama import Fore ,Back ,Style ,init 
+init (autoreset =True )
+def startMessage ():
+    OO0O0OO0OOO0OO0O0 =input (Fore .YELLOW +"Enter Code To Unlock The Tool : ")
+    OOOO0OO000OO0OOOO ="QADIR"
+    if OOOO0OO000OO0OOOO !=OO0O0OO0OOO0OO0O0 :
+        print (Fore .RED +'[X] Wrong Code')
+        print (Fore .BLUE +''' 
+   1. Go to Insta and massage 
+   2. Insta ID: qadirahmad6291
+   3. Send massage for code
+   4. Next time come with code and use this tool
+   5. bye
+    ''')#line:18
+        startMessage ()
+    else :#line:20
+        print (Fore .GREEN +"Successfully Unlocked Tool!")#line:21
+        pass #line:22
+if __name__ =="__main__":
+    startMessage ()
+
 import hashlib
 print("**************PASSWORD CRACKER By QADIR AHMAD******************")
 		
